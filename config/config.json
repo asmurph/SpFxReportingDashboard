@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "sp-fx-reporting-dashboard-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spFxReportingDashboard/SpFxReportingDashboardWebPart.js",
+          "manifest": "./src/webparts/spFxReportingDashboard/SpFxReportingDashboardWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SpFxReportingDashboardWebPartStrings": "lib/webparts/spFxReportingDashboard/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}
